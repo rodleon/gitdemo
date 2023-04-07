@@ -6,7 +6,7 @@ import json
 driver = webdriver.Chrome()
 
 # Test de la méthode GET
-response = requests.get('https://reqres.in/api/users?page=2')
+response = requests.get('https://reqres.in/api/users')
 if response.status_code == 200:
     
     print("La méthode GET a fonctionné correctement.")
