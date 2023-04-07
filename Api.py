@@ -21,7 +21,7 @@ else:
 with open('FileTest.json', 'r') as f:
     expected_data = json.load(f)
 
-# Comparaison des dictionnaires
+# Comparaison de la réponse obtenue et le fichier FileTest
 
 if json_data == expected_data:
     print('La réponse JSON est identique au contenu du fichier "reponse_attendue.json"')
